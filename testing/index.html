@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testing Valiana AI</title>
+<style>
+  :root { --text:#1d1d1f; --muted:#555; --rule:#ddd; --bg:#fff; --link:#0a58ca; }
+  @media (prefers-color-scheme: dark) { :root { --text:#eee; --muted:#aaa; --rule:#333; --bg:#111; --link:#7ab0ff; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--rule); }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  table { border-collapse:collapse; width:100%; margin:8px 0; font-size:0.95rem; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--rule); }
+  a { color:var(--link); }
+</style>
+</head>
+<body>
+<main>
+<nav class="meta"><a href="/">Home</a> &middot; <a href="/testing/">Testing</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/support/">Support</a></nav>
+
+<h1>Testing Valiana AI with TestFlight</h1>
+<p class="meta">For testers who received an invitation to test Valiana AI before release</p>
+
+<p>Valiana AI is tested through <strong>TestFlight</strong>, Apple's free app for trying apps before they are released. This page takes you from the invitation email to your first test, step by step. It takes about 10 minutes.</p>
+
+<h2>Before you start</h2>
+<table>
+  <tr><th>You need</th><th>Details</th></tr>
+  <tr><td>An iPhone</td><td>With a recent version of iOS. If TestFlight later says the app needs a newer version, update iOS in <strong>Settings &gt; General &gt; Software Update</strong>.</td></tr>
+  <tr><td>A personal Apple Account</td><td>The account you use for the App Store. <strong>A work-managed Apple Account (one issued by your organization) cannot be used for TestFlight.</strong> If you are not sure which kind you have, open <strong>Settings</strong> and tap your name at the top; ask us if it shows your organization's name.</td></tr>
+  <tr><td>The invitation email</td><td>From TestFlight, with the subject "You're invited to test Valiana AI UAT". Open it <strong>on the iPhone</strong> you will test with. Invitations expire after 30 days.</td></tr>
+  <tr><td>Your test sign-in details</td><td>A user name and password for the test environment. We send these to you separately, never in the TestFlight email.</td></tr>
+  <tr><td>About 10 minutes and a Wi-Fi or mobile connection</td><td>The first install downloads the app.</td></tr>
+</table>
+
+<h2>Important: test data only</h2>
+<p><strong>Never use real patient information while testing.</strong> The test environment is for made-up patients only. Use invented names and dates of birth, and never record a real patient consult. Do not include patient information in screenshots or feedback.</p>
+
+<h2>Step 1: Install TestFlight</h2>
+<ol>
+  <li>On your iPhone, open the <strong>App Store</strong>.</li>
+  <li>Search for <strong>TestFlight</strong>. It is made by Apple and is free.</li>
+  <li>Tap <strong>Get</strong>, then confirm with Face ID or your password.</li>
+</ol>
+
+<h2>Step 2: Accept the invitation</h2>
+<ol>
+  <li>On the same iPhone, open the invitation email.</li>
+  <li>Tap <strong>View in TestFlight</strong>. TestFlight opens.</li>
+  <li>Tap <strong>Accept</strong>, then <strong>Install</strong>.</li>
+</ol>
+<p>If the button shows a code instead of opening TestFlight: copy the code, open TestFlight, tap <strong>Redeem</strong> (top right), paste the code and tap <strong>Redeem</strong>.</p>
+
+<h2>Step 3: Open the app and sign in</h2>
+<ol>
+  <li>Open <strong>Valiana AI UAT</strong> from your home screen or from TestFlight. The test version has "UAT" in its name and a different icon, so you can tell it apart from the released app.</li>
+  <li>Allow the <strong>microphone</strong> when asked. The app needs it to record a consult.</li>
+  <li>Allow <strong>notifications</strong> if asked, so you hear about new test versions.</li>
+  <li>Sign in with the test user name and password we sent you, and complete the extra sign-in step.</li>
+  <li>Allow <strong>Face ID</strong> when asked. The app locks itself when you leave it idle, and Face ID unlocks it.</li>
+</ol>
+
+<h2>Step 4: Test</h2>
+<p>Each test version comes with notes on what to test. Find them in TestFlight: open TestFlight, tap <strong>Valiana AI UAT</strong>, and read <strong>What to Test</strong>. Work through them with made-up patients.</p>
+
+<h2>Step 5: Send feedback</h2>
+<p>There are two ways, and both come straight to us:</p>
+<ul>
+  <li><strong>With a screenshot:</strong> take a screenshot in the app (press the side button and volume up together), tap the preview that appears, mark it up if you want, tap <strong>Done</strong>, then <strong>Share Beta Feedback</strong>. Add a short note on what happened and what you expected.</li>
+  <li><strong>Without a screenshot:</strong> open TestFlight, tap <strong>Valiana AI UAT</strong>, then <strong>Send Beta Feedback</strong>.</li>
+</ul>
+<p>If the app crashes, iOS may ask whether to send a crash report to us. Please tap <strong>Share</strong> and add a line about what you were doing.</p>
+
+<h2>Step 6: Install new test versions</h2>
+<p>When we release a new test version, TestFlight notifies you. New versions do not always install by themselves:</p>
+<ol>
+  <li>Open <strong>TestFlight</strong>.</li>
+  <li>Tap <strong>Valiana AI UAT</strong>.</li>
+  <li>Tap <strong>Update</strong> (or <strong>Install</strong>).</li>
+</ol>
+<p>Always test on the newest version unless we ask otherwise. Each test version expires after 90 days; by then a newer one will be available.</p>
+
+<h2>Troubleshooting</h2>
+<table>
+  <tr><th>Problem</th><th>What to do</th></tr>
+  <tr><td>"View in TestFlight" does nothing</td><td>Make sure TestFlight is installed (Step 1), and that you opened the email on the iPhone, not on a computer.</td></tr>
+  <tr><td>The invitation has expired</td><td>Email us and we will send a new one.</td></tr>
+  <tr><td>TestFlight says your account cannot be used</td><td>You are probably signed in with a work-managed Apple Account. Sign in to the App Store with a personal Apple Account, or ask us for help.</td></tr>
+  <tr><td>The app needs a newer iOS</td><td>Update iOS in <strong>Settings &gt; General &gt; Software Update</strong>, then try again.</td></tr>
+  <tr><td>You cannot sign in</td><td>Check the test user name and password we sent you. If it still fails, email us; do not create a new account.</td></tr>
+  <tr><td>The app is not in TestFlight any more</td><td>The test may have ended or the version expired. Email us.</td></tr>
+</table>
+
+<h2>When testing ends</h2>
+<p>We will tell you when testing is complete. You can then delete Valiana AI UAT from your iPhone like any other app. TestFlight can stay or be deleted.</p>
+
+<h2>Help</h2>
+<p>Email <a href="mailto:david.howell@aiquantia.com">david.howell@aiquantia.com</a>. Please do not include patient information.</p>
+</main>
+</body>
+</html>
